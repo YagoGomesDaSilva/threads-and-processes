@@ -1,0 +1,34 @@
+compilação do Auxiliar:
+
+gcc -o Auxiliar Auxiliar.c
+./Auxiliar "dimensao" "dimensao" "dimensao" "dimensao"
+
+vai gerar dois aquivos : M1.txt M2.txt
+.............................................................
+compilação do sequencial:
+
+gcc -o Mult_sequencial Mult_sequencial.c
+./Mult_sequencial M1.txt M2.txt "diretorio"/"nome do arq.txt"
+
+ex:M1.txt M2.txt 100x100/100x100_0.txt"
+
+.............................................................
+
+compilação de processos:
+
+gcc -o Mult_processos Mult_processos.c
+./Mult_sequencial M1.txt M2.txt P
+
+ex:M1.txt M2.txt 10
+.............................................................
+
+compilação de threads:
+
+gcc -o Mult_threads Mult_threads.c
+./Mult_threads M1.txt M2.txt P
+
+ex:M1.txt M2.txt 10
+
+
+
+
